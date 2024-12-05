@@ -1,0 +1,150 @@
+.container {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    text-align: center;
+    background-color: grey;
+    height: 100vh;
+    animation: anim1 10s ;
+}
+.move{
+    width: 150px;
+    height: 100px;
+    background-color:lightgreen;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 9px ;
+    margin-top: 20px;
+    font-style:inherit;
+    font-weight: 200;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid black 5px;
+    animation: anim2 4s ;
+}
+.zoom{
+    width: 150px;
+    height: 100px;
+    background-color:lightgreen;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 9px ;
+    margin-top: 20px;
+    font-style:inherit;
+    font-weight: 200;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid black 5px;
+    animation: anime3 4s infinite;
+
+}
+.rotate{
+    width: 150px;
+    height: 100px;
+    background-color:lightgreen;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 9px ;
+    margin-top: 20px;
+    font-style:inherit;
+    font-weight: 200;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid black 5px;
+}
+.skew{
+    width: 150px;
+    height: 100px;
+    background-color:lightgreen;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 9px ;
+    margin-top: 20px;
+    font-style:inherit;
+    font-weight: 200;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid black 5px;
+}
+.combo {
+    width: 150px;
+    height: 100px;
+    background-color:lightgreen;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 9px ;
+    margin-top: 20px;
+    font-style:inherit;
+    font-weight: 200;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid black 5px;
+}
+
+.move:hover {
+    transform: translate(300px,300px);
+}
+.zoom:hover{
+   transform: scale(1.5);
+}
+.rotate:hover {
+    transform: rotate(25deg);
+    animation: anim4 4s infinite;
+}
+.skew:hover{
+    transform: skew(10deg,15deg);
+}
+.combo:hover {
+    transform: translate(-300px, 300px)  rotate(30deg) scale(1.2) skew(5deg, 10deg);
+}
+
+@keyframes anim1 {
+    from{
+        background-color: grey;
+    }
+    to{
+        background-color: palevioletred;
+    }
+}
+
+@keyframes anim2 {
+    from{
+        width: 150px;
+    }
+    to {
+        width: 300px;
+    }
+    from{
+        height: 100px;
+    }
+    to{
+        height: 300px;
+    }
+}
+
+@keyframes anim3{
+    from{
+       background-color: lightgreen;
+    }
+    to{
+        background-color: rgb(107, 107, 226);
+    }
+}
+@keyframes anim4 {
+    from{
+        transform: rotate(25deg);
+    }
+    to{
+        transform: rotate(-25deg);
+    }
+}

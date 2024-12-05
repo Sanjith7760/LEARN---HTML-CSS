@@ -1,0 +1,10 @@
+ 
+pre > p{
+   color: rgb(28, 183, 7);
+}
+body  div{
+    color: blue;
+}
+h1+p+p{
+    color: blueviolet;
+}

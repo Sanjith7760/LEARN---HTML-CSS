@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <h1>This is how to create forms</h1>
+        <form action="#">
+            <label for="username">Username:</label> <br>
+             <input type="text" id="username" name="username" required autofocus placeholder=" Enter Your Name" title="Please fill Your Name">
+             <br>
+             <label for="age">Age:</label> <br>
+             <input type="number" id="age" name="age" min="18" max="35" required placeholder=" Age" title="Please fill Your Age">
+             <br>
+             <label for="email">Email:</label> <br>
+             <input text="Email" id="email" name="email" required placeholder=" Enter Your Email" title="Please fill Your Email">
+             <br>
+             <label for="gender">Gender:</label><br>
+             <input type="radio" id="male" name="gender" value="male" >
+             <label for="male">M</label>
+             <input type="radio" id="female" name="gender" value="female" >
+             <label for="female">F</label>
+             <input type="radio" id="other" name="gender" value="other">
+             <label for="other">Other</label>
+             <input type="checkbox" id="prefer-not-to-say" name="gender" value="prefer-not-to-say">
+            <label for="prefer-not-to-say">Prefer not to say</label>
+             
+             <br><br>
+             <input type="Submit"  title="Please Submit"></button>
+             <br><br>
+             
+            
+             
+             <input type="reset" value="Reset">
+             <br><br>
+             <br><br>
+
+             <h3>Another type</h3>
+             <label for="gender">Gender:</label>
+<div style="margin-bottom: 10px;">
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+</div>
+<div style="margin-bottom: 10px;">
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label>
+</div>
+<div style="margin-bottom: 10px;">
+    <input type="radio" id="other" name="gender" value="other" required>
+    <label for="other">Other</label>
+</div>
+<div style="margin-bottom: 10px;">
+    <input type="radio" id="prefer-not-to-say" name="gender" value="prefer-not-to-say" required>
+    <label for="prefer-not-to-say">Prefer not to say</label>
+</div>
+
+
+        </form>
+    </body>
+</html>

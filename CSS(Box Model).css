@@ -1,0 +1,102 @@
+.outer{
+    width: 300px;
+    height: 300px;
+    background-color: bisque;
+    padding: 20px;
+    border: 5px solid rgb(0, 0, 16);
+    text-align: center;
+    margin: 10px;
+}
+
+.inner{
+    background-color: lightgoldenrodyellow;
+    padding: 15px;
+    border: 5px solid blue;
+    margin: 10px;
+    align-content: center;
+    padding-left: 20px;
+    
+}
+.div2{
+    margin-left: 50px;
+    margin-top: -17px;
+}
+.div3{
+    margin-left: 100px;
+    margin-top: -18px;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    align-items:flex-end ;
+    align-items:stretch ;
+    align-items:baseline ;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+.btn1{
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+.btn2{
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+.btn3{
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.grid-container {
+    display: grid; /* Activate CSS Grid */
+    grid-template-columns: 1fr 1fr; /* 2 equal columns */
+    grid-template-rows: 1fr 1fr; /* 2 equal rows */
+    gap: 20px; /* Add space between items */
+    height: 100vh; /* Full height of the screen */
+}
+
+/* Step 2: Style the grid items */
+.item {
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.divElement{
+    background-color: aquamarine;
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.ele{
+    background-color: black;
+    color: white;
+    padding: 6px;
+    border-radius: 6px;
+    margin: 10px;
+    border: 2px solid rgb(249, 246, 246);
+}
+@media (max-width: 768px){
+    .grid-container{
+        grid-template-columns:repeat(4,3fr);
+    }
+    .ele{
+        background-color: lightcoral ;
+    }
+}

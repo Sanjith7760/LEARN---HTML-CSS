@@ -1,0 +1,58 @@
+
+h1::before {
+    content: "Before the Paragraph ";
+    color: blueviolet;
+}
+h1::after {
+    content: " After the Paragraph";
+    color: blueviolet;
+}
+p::before{
+    content: "Start ";
+    color: blue;
+    font-size: larger;
+}
+p::after{
+    content: " End";
+    color: blue;
+    font-size: larger;
+}
+
+p::first-line{
+    content: "Hi ";
+    color: darkgoldenrod;
+}
+
+P::first-letter{
+    color: rgb(243, 10, 10);
+}
+label{
+    color:darkmagenta;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2px;
+    font-size: medium;
+    border-radius: 10%;
+    
+    
+}
+input::placeholder{
+    color: darkgreen;
+    padding: 2%;
+    border-radius: 10%;
+    border: 3%;
+    font-weight: bold;
+    font-style: italic;
+}
+h1::selection{
+    color: rgb(237, 236, 155);
+    background-color: rgb(23, 3, 3);
+}
+.l1 ::marker{
+    color: rgb(238, 4, 152);
+}
+.l2 ::marker{
+    color: rgb(207, 6, 6);
+}
+ol li::marker{
+    color: rgba(6, 84, 126, 0.929);
+}

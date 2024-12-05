@@ -1,0 +1,24 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: auto auto;
+    background-color: rgb(169, 222, 96);
+    height: 100vh;
+    gap: 10px;
+    padding: 40px;
+    margin: 20px;
+}
+
+.Product {
+    display: flex;
+    background-color: rgb(82, 80, 140);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  
+}

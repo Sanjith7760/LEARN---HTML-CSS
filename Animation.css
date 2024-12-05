@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(243, 124, 219);
+    color: black;
+    font-size: larger;
+    font-weight: 200;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 50px;
+    transform: translate(0px,0px);
+    animation: anim1 5s ;
+    
+
+}
+
+
+/* @keyframes anim1{   
+    from{
+        background-color: aquamarine;
+    }
+    to{
+        background-color: lightpink;
+    }
+    from{
+        border:5px solid black;
+    }
+    to{
+        border: 5px solid darkblue;
+    }
+} */
+
+/* @keyframes anim1{   Instead of this use below
+    0%{
+        background-color: rgb(3, 107, 72);
+    }
+    25%{
+        background-color: rgb(215, 21, 150);
+    }
+    50%{
+          background-color: rgb(17, 132, 177);
+    }
+    75%{
+        background-color: rgb(203, 121, 14);
+    }
+    100%{
+      background-color:  rgb(212, 11, 17);
+    }
+    0%{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(100%,0);
+    }
+    50%{
+        transform: translate(100%,100%);
+    }
+    75%{
+        transform: translate(0,100%);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+    
+}  */
+
+/* @keyframes anim1{  This is to move the square box
+    0%{
+        background-color: rgb(3, 107, 72);
+        top: 0px;
+        left: 0px;
+        
+    }
+    25%{
+        background-color: rgb(215, 21, 150);
+        top: 0px;
+        left: 500px ;
+        transform: scale(1.5);
+    }
+    50%{
+          background-color: rgb(17, 132, 177);
+          top: 500px;
+          left: 500px;
+          transform: rotate(45deg);
+    }
+    75%{
+        background-color: rgb(203, 121, 14);
+        top: 500px;
+        left: 0px;
+        transform: skew(10deg,10deg);
+    }
+    100%{
+      background-color:  rgb(212, 11, 17);
+      top: 0px;
+      left: 0px;
+    }
+} */
+
+/* This is to move the box along with that rotates the box */
+/* @keyframes anim1{ 
+    0%{
+        background-color: rgb(3, 107, 72);
+        top: 0px;
+        left: 0px;
+        transform: rotate(180deg);
+    }
+    25%{
+        background-color: rgb(215, 21, 150);
+        top: 0px;
+        left: 500px ;
+        transform: rotate(90deg);
+    }
+    50%{
+          background-color: rgb(17, 132, 177);
+          top: 500px;
+          left: 500px;
+          transform: rotate(-90deg);
+    }
+    75%{
+        background-color: rgb(203, 121, 14);
+        top: 500px;
+        left: 0px;
+        transform: rotate(-180deg);
+    }
+    100%{
+      background-color:  rgb(212, 11, 17);
+      top: 0px;
+      left: 0px;
+    }
+} */
+
+/* This is to Say Hi to the user  from Moving the box*/
+@keyframes anim1{ 
+    0% {
+        transform: translateX(-100%);
+        background-color: rgb(243, 124, 219);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        background-color: rgb(237, 196, 93);
+        opacity: 1;
+    }
+}
+/* Note : */
+/* .body{ 
+    background: linear-gradient(black green pink blue );
+    background-attachment: fixed;
+    background-size: cover;
+} */

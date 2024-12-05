@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>REGEX</title>
+    </head>
+    <body>
+        <form >
+            <p><b>Enter the details of User:</b></p>
+            <fieldset>
+                <legend title="PLEASE FILL THE FORM">
+                    User Form Details:
+                </legend>
+                <label for="username" >UserName:</label><br>
+                <input type="text" id="username"  name="username" placeholder="Enter Username" pattern="^[A-Za-z]{0,49}$" title="Username should contains only alphabets"  required /><br><br>
+                <label for="phone">Phone Number:</label><br>
+                <input type="text" id="phone" name="phone" placeholder="Enter Phone Number" pattern="^\d{3} \d{3} \d{4}" title="Phone Number must be in this Format: 999 999 9999" required/><br><br>
+                <input type="submit" value="Submit" title="Please Submit the form">
+            </fieldset>
+        </form>
+    </body>
+</html>

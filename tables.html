@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tables</title>
+    </head>
+    <body>
+        <h1>This is About TABLE's in HTML</h1>
+        <table border>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Branch</th>
+                <th>Gender</th>
+            </tr>
+            <tr>
+                <td>Sanjith</td>
+                <td>23</td>
+                <td>ECE</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>Sandeep</td>
+                <td>20</td>
+                <td>Mech</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>Manoj</td>
+                <td>23</td>
+                <td>CSE</td>
+                <td>Male</td>
+                
+            </tr>
+            <tr>
+                <td>Navya</td>
+                <td>22</td>
+                <td>Civil</td>
+                <td>Female</td>
+            </tr>
+
+        </table>
+        <br>
+        
+        <table border="1">
+            <tr>
+              <td rowspan="1">Cell 0</td>
+              
+            </tr>
+            <tr>
+              <td>Cell a</td>
+              <td>Cell b</td>
+              <td>Cell c</td>
+            </tr>
+            <tr>
+              
+              <td>Cell 4</td>
+              <td>Cell 5</td>
+
+            </tr>
+          </table>
+          <br>
+
+          <table border="1">
+            <tr>
+              <td >Cell a</td>
+              <td colspan="3">cell b</td>
+              
+              
+            </tr>
+            <tr>
+               <td></td>
+              <td >Cell 4</td>
+              <td colspan="2">Cell 5</td>
+              
+            </tr>
+          </table>
+          <br>
+
+        <table border>
+            <tr>
+                <td>
+                    <h1>This is My Video</h1>
+        
+                    <video 
+                    src="WIN_20241016_12_49_19_Pro.mp4"  
+                    
+                    controls 
+                    muted
+                    loop
+                    width="500px" 
+                    height="400px"
+                    poster="WIN_20240821_11_53_56_Pro.jpg">
+                    My Browser supports the video
+                    </video>
+                </td>
+                <td>
+                    <body>
+                        <h1>Showing Image</h1>
+                        <img  src="download.png" alt="Image not found" width="400px" and height="Auto">
+                        
+                    </body>
+                </td>
+                <td>
+                    <h1>
+                        Audio Content In This Web Page
+                    </h1>
+                    <p>
+                        <strong>THE SONG OF MY HEAVEN</strong>
+                    </p>
+                    <audio src="audio1.mp3" controls muted  loop autoplay >Playing the Song</audio>
+                    <br>
+            
+                    <a href="videoSource.html" target="_blank">Link to the Video Source</a>
+                </td>
+            </tr>
+        </table>
+        <br>
+
+        <table border>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Branch</th>
+                <th>Gender</th>
+            </tr>
+            <tr>
+                <td>Sanjith</td>
+                <td>23</td>
+                <td>ECE</td>
+                <td rowspan="3">Male</td>
+            </tr>
+            <tr>
+                <td>Sandeep</td>
+                <td>20</td>
+                <td>Mech</td>
+                
+            </tr>
+            <tr>
+                <td>Manoj</td>
+                <td>23</td>
+                <td>CSE</td>
+                
+                
+            </tr>
+            <tr>
+                <td>Navya</td>
+                <td>22</td>
+                <td>Civil</td>
+                <td>Female</td>
+                
+            </tr>
+
+        </table>
+        <br>
+
+
+        <table border>
+            <!--Column Headings-->
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>ID</th>
+                <th>Remarks</th>
+            </tr>
+        
+            <!--First Row-->
+            <tr>
+                <td>Anisha</td>
+                <td>22</td>
+                <td>KOD123</td>
+                <td rowspan="3"></td> <!-- Merge vertically across 3 rows -->
+            </tr>
+        
+            <!--Second Row-->
+            <tr>
+                <td>Prakash</td>
+                <td>22</td>
+                <td>KOD456</td>
+            </tr>
+        
+            <!--Third Row-->
+            <tr>
+                <td>Chrisel</td>
+                <td>23</td>
+                <td>KOD334</td>
+            </tr>
+        
+            <!--Fourth Row - Summary Row-->
+            <tr>
+                <td colspan="3"><b>Summary</b></td> <!-- Merge horizontally across 3 columns -->
+                <td>All are active</td>
+            </tr>
+        
+            <!--Fifth Row - Total Row-->
+            <tr>
+                <td colspan="2"><b>Total</b></td> <!-- Merge horizontally across 2 columns -->
+                <td>3</td>
+                <td></td> <!-- Do not add any data for this -->
+            </tr>
+        </table>
+
+    </body>
+</html>

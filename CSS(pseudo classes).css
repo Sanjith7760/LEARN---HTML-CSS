@@ -1,0 +1,76 @@
+h1:hover{
+    color: blue;
+    
+    font-style: italic;
+}
+h3:hover{
+    color: blue;
+    
+    font-style: italic;
+}
+button:hover{
+    background-color: cadetblue;
+    color: crimson;
+}
+img:hover{
+    opacity: 50%;
+}
+input:focus{
+    outline:none; border-color: blue;
+    border-color: brown;
+    
+}
+
+li:nth-of-type(odd){
+    color: rgb(12, 245, 12);
+}
+li:nth-of-type(even){
+    color: rgb(33, 55, 225);
+}
+li:nth-child(3){
+    color: rgb(230, 13, 86);
+}
+li:first-child{
+    color: rgb(28, 4, 4);
+}
+li:last-child{
+    color: rgb(246, 180, 15);
+}
+li:only-child{
+    color: aqua;
+}
+
+p:not(.para){
+    color:rgb(234, 10, 234);
+}
+p:nth-child(4){
+    color: rgb(136, 136, 233);
+}
+.vis {
+    color: darkgreen;
+}
+.vis:visited{
+    color: rgb(27, 166, 235);
+}
+.act {
+    color: gold;
+}
+.act:active{
+    color: rgb(3, 149, 189);
+}
+
+.ip:enabled{
+    background-color: rgb(111, 134, 227);
+    border: 3px solid rgb(111, 5, 17);
+    color: black;
+}
+.ip:disabled{
+    background-color: rgb(191, 216, 166) ;
+}
+
+* {
+    text-align: center;
+    padding: 10px;
+    margin: 1px;
+    border-radius: 2px;
+}
